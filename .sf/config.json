@@ -1,3 +1,4 @@
 {
-  "target-org": "Developer-Prod-org"
+  "target-org": "UAT",
+  "target-dev-hub": "Developer-Prod-org"
 }
