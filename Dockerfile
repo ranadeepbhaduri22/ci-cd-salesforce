@@ -7,4 +7,4 @@ RUN sfdx plugins:install sfdmu &&\
 sfdx sfdmu:run --help
 RUN apt-get update &&\
 apt-get install -y openjdk-11-jre-headless &&\
-apt-get-clean
+apt-get clean

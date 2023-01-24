@@ -33,10 +33,10 @@ jobs:
 
     #passing the docker container creds to load the dependencies
     container:
-      image: code4kiran/cicdpoc-sfdx-cli
+      image: ranadeepbhaduri22/devops
       credentials:
-        username: ${{ secrets.DOCKER_HUB_UN }}
-        password: ${{ secrets.DOCKER_HUB_PASS }}
+        username: ${{ secrets.DOCKER_HUB_USERNAME }}
+        password: ${{ secrets.DOCKER_HUB_PASSWORD }}
 
     #steps represent a sequence of tasks that will be executed as part of the job.
     steps:
